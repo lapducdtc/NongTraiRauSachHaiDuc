@@ -1,0 +1,413 @@
+*{margin: 0px;padding: 0px;}
+li{list-style: none;}
+a{text-decoration: none;}
+#onlink{background: white; border-radius: 10px 10px 0px 0px;}
+#onlink2{background-color: #6DA30F;}
+.cl{clear: both;}
+img{border: 0px;}
+.wapper{ width: 1000px; margin: auto; }
+#content
+{
+    padding-top: 30px;
+    width: 1000px;
+    margin: auto;
+    min-height: 500px;
+    margin-bottom: 50px;
+}
+.buttom{
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 7px 30px;
+    border-radius: 5px;
+    cursor: hand;
+}
+/*phan headder*/
+#header{ width: 100%; height: 168px; background:url("images/header.jpg"); }
+#banner{ width: 100%; height:114px; padding-top: 5px; }
+#nav{ margin-top: 2px; width: 100%; height: 48px; background:url("images/nav-bg.png") ; }
+#nav>ul>li{ position: relative; }
+#nav>ul>li>a{ color: green; float: left; height: 48px; line-height: 48px; padding: 0px 30px; border-right: 1px solid white; }
+#nav>ul>li>a:hover{ background: white; border-radius: 10px 10px 0px 0px; }
+#nav>ul>li>ul{ position: absolute; display: none; z-index: 99; }
+#nav>ul>li:hover>ul{ display: block; margin: 48px 0px 0px 300px; }
+#nav>ul>li>ul>li{ background:url("images/nav-bg.png") ; width: 200px; height: 48px; line-height: 48px; padding-left: 10px; }
+#nav>ul>li>ul>li>a{ color: green; padding: 15px 150px 15px 10px; }
+#nav>ul>li>ul>li:hover{ background: white; border-radius: 10px 0px 0px 0px; }
+
+
+/*slide*/
+
+#bigPic{ width:940px; height:300px; padding:1px; border:1px solid #CCC; background-color:#FFF; margin-bottom:10px; }
+#bigPic img{ position:absolute; display:none; width:940px; height:300px;}
+ul#thumbs li.active{ border:2px solid lime;	 background:#fff; padding:2px; }
+ul#thumbs, ul#thumbs li{ margin:0; 	padding:0; list-style:none; }
+ul#thumbs li{ float:left; margin-right:7px; margin-bottom:5px; border:1px solid #CCC; padding:3px; cursor:pointer; }
+ul#thumbs img{ float:left; width:80px; height:80px; line-height:80px; overflow:hidden; position:relative; z-index:1; }
+
+#slide1{
+    padding: 20px 25px;
+}
+
+
+/*danh muc*/
+.danhmuc{
+    width: 100%;
+    margin-top: 20px;
+}
+.tieude{
+    padding: 10px 10px 10px 10px;
+    background:#8DBD1B;
+    border-radius: 5px 0px 0px 0px;
+    box-shadow: 5px 5px 5px silver;
+    
+
+}
+.tieude a{
+    color: white;
+    font-size:18px ;
+
+}
+.tieude a:hover{
+    
+}
+.list1{
+    padding-left: 10px;
+}
+.list1 ul li{
+    float: left;
+    width: 179px;
+    margin: 10px 8px;
+
+}
+.list1 img{
+    width: 165px;
+    height: 165px;
+    padding: 5px;
+    border: 1px solid silver;
+    box-shadow: 3px 3px 3px silver;
+}
+
+.list1 img:hover{
+    box-shadow: 5px 5px 5px silver;
+}
+.list1{
+    text-align: center;
+}
+.list1 span{
+    padding: 0px 3px;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+}
+.thongtin{
+    width: 175px;
+    margin: 10px 0px;
+    border: 1px solid lime;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px silver;
+}
+
+.btchitiet{
+    margin-left: 15px;
+    width: 150px;
+    height: 35px;
+    background: #8CBC1A;
+    line-height: 35px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px silver;
+}
+.btchitiet a{
+    color: #FFF;
+}
+.btchitiet:hover{
+    box-shadow: 5px 5px 5px gray;
+}
+.boderbt{
+width: 100%;
+height: 1px;
+border-bottom: 1px dotted green;
+margin: 30px 0px;
+}
+
+/*slide 2*/
+/*slide booton*/
+#slide-botom{ height: 100px; margin:30px 0px; }
+.slide-holder1{ margin:0 auto; }
+.slide-container1 {  height: 100px; width: 100%; overflow: hidden; position:relative; }
+.slide-stage1{ position: absolute; }
+.slide-image1 { float:left; width:150px; height:100px; text-align: center; }
+.slide-image1 img{ width:95%; margin:0 auto;width:150px; height:100px; }
+.slide-pager1{ position:relative; }
+.slide-control-prev1 { position: absolute; text-align: center; width: 25px; height: 45px; background: orange; line-height: 45px;
+    color: #fff; cursor: pointer; top: 35px; left: -30px; }
+.slide-control-next1{ position: absolute; text-align: center; width: 25px; height: 45px;
+    background: orange; line-height: 45px; color: #fff; cursor: pointer; right: -30px; top: 35px; }
+
+#footer{
+    width: 100%;
+    height: 140px;
+    background:url("images/footer.jpg") ;
+}
+#nav2{
+    width: 400px;
+    height: 30px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+#nav2 ul li a{
+    color: white;
+    float: left;
+    padding: 2px 10px;
+    border-right: 1px solid white;
+}
+#nav2 ul li a:hover{
+    color: lime;
+}
+#left{
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    float: left;
+    margin-left: 10px;
+    margin-right: 550px;
+}
+#right{
+    line-height: 20px;
+    color: white;
+    float: left;
+}
+/*titel lien he*/
+
+#tlhe{
+    padding-left: 10px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+#tlhe span{
+    color: #6FA310;
+}
+
+/*menu 1*/
+#td{
+    background-color: #82B417;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#menu1{
+    float: left;
+    width: 250px;
+    min-height: 500px;
+    margin-right: 10px;
+}
+
+#menu1 ul{
+    width: 250px;
+    padding: 0px;
+    text-align: left;
+}
+
+#menu1 ul li {
+    border-radius: 5px ;
+    background: #82B417;
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    margin:1px 0px ;
+}
+#menu1 ul li a{
+    border-radius: 5px ;
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid silver;
+    padding: 0px 10px;
+}
+#click{
+    background-color: #6DA30F;
+}
+#menu1 ul li a{
+    color: white;
+    display: block;
+}
+
+#menu1 ul li a:hover{
+    background: #6DA30F;
+}
+.fb-page
+{
+    margin-top: 20px;
+}
+/*Gioi thieu*/
+#gioithieu{
+    width: 800px;
+    min-height: 500px;
+    margin: 20px auto;
+    border-radius: 25px;
+    border: 1px solid #008040;
+    box-shadow: 3px 3px 3px 3px silver;
+    padding: 0px 20px 0px 20px;
+    background-color: #69AF39;
+}
+
+#tdgt{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    text-shadow: 0.1em 0.1em #333
+}
+#img{width: 550px;
+    height: 250px;
+    padding:20px 0px;
+    margin: auto;
+}
+#img img{
+    width: 550px;
+    height: 250px;
+}
+#gioithieu span{
+    padding: 20px;
+    color: white;
+    font-size:17px ;
+}
+
+#gtnt{
+    margin-left: 20px;
+    padding: 10px 0px;
+    line-height: 20px;
+    font-size: 20px;
+    color:white ;
+}
+/*trang san pham*/
+
+#leftsp
+{
+    width: 250px;
+    min-height: 500px;
+    float: left;
+}
+#rigthsp{
+    margin-left: 10px;
+    border-left:1px dotted lime;
+    float: left;
+    width: 720px;
+    min-height: 500px;
+}
+#allsp{
+    margin-left: 20px;
+}
+#allsp li{
+    margin: 0px 25px;
+}
+
+.title{
+    width: 100%;
+    height: 35px;
+    background-color: #70A411;
+    color: white;
+    line-height: 35px;
+    border-radius: 0px 10px 0px 0px;
+    padding:0px 0px 0px 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/*phan trang*/
+
+.page{
+    margin-right: 50px;
+    float: right;
+}
+.page strong{
+    padding: 2px 5px;
+    font-size: 20px;
+}
+.page a{
+    padding: 2px 5px;
+    font-size: 20px;
+}
+
+#v_content img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 20px;
+    padding: 3px;
+    border: 1px solid silver;
+}
+#ndung h2{
+    color: green;
+}
+#ndung{
+    color: gray;
+    float: left;
+    font-size: 21px;
+    width:400PX;
+    height: 200px;
+    margin-left: 20px;
+    border-left: 1px dotted lime;
+    padding-left: 10px;
+    line-height: 40px;
+}
+#tdmota{
+    color: green;
+    font-size: 20px;
+}
+#mota{
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 600px;
+    height: 200px;
+}
+
+/*san pham cung loai*/
+
+#spkhac{
+    width: 100%;
+}
+
+
+#tdspk{
+    height: 40px;
+    background: #70A411;
+    border-radius: 0px 10px 0px 0px;
+    line-height: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+/*search thong tin*/
+
+.searchform {
+float: left;
+margin-top: 8px;
+margin-left: 80px;
+border: #80FF00 1px solid;
+height:27px;
+width:300px;
+}
+.searchform input[type=text]{
+
+width:200px;
+height:21px;
+border:0px;
+background:#ffffff;
+float:left;
+margin:0px;padding:3px;
+}
+
+.searchform input[type=submit]
+{
+border:#00afdd 2px solid;
+float:right;
+margin:2px 2px 2px 2px;
+height:23px;
+padding-top:1px;
+background:#4fbfdc;
+}

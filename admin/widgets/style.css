@@ -1,0 +1,248 @@
+*{margin: 0px;padding: 0px;}
+li{list-style: none;}
+a{text-decoration: none;}
+.cl{clear: both;}
+#wapper{
+    width: 100%;
+    height: 175px;
+    margin: auto;
+    }
+#header{
+    height: 150px;
+    background:url("images/header.jpg") ;
+}
+#banner{
+    margin: auto;
+    width: 1000px;
+    height: 100px;
+}
+#banner img{
+    width: 1000px;
+    height: 100px;
+   padding-top: 5px;
+}
+#tieude{
+    margin: auto;
+    background:url("images/nav-bg.png") ;
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    line-height: 40px;
+    color: green;
+}
+#center{
+    width: 1150px;
+    margin: auto;
+    
+    padding-top: 20px;
+}
+#nav{
+    float: left;
+    width: 200px;
+    min-height: 500px;
+    margin-right: 10px;
+}
+
+#nav ul{
+    width: 200px;
+    padding: 0px;
+    text-align: left;
+}
+
+#nav ul li {
+    border-radius: 5px ;
+    background: #82B417;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+}
+#nav ul li a{
+    border-radius: 5px ;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid silver;
+    padding: 0px 10px;
+}
+#click{
+    background-color: #6DA30F;
+}
+#nav ul li a{
+    color: white;
+    display: block;
+}
+
+#nav ul li a:hover{
+    background: #6DA30F;
+}
+#content{
+    width: 900px;
+    min-height: 500px;
+    padding-top: 20px;
+    border-left: 1px dotted lime;
+    float: left;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.f_center{
+    margin: auto;
+    width: 1000px;
+    padding-top: 40px;
+}
+#footer{
+    width: 100%;
+    height: 140px;
+    background:url("images/footer.jpg") ;
+}
+#nav2{
+    width: 400px;
+    height: 30px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+#nav2 ul li a{
+    color: white;
+    float: left;
+    padding: 2px 10px;
+    border-right: 1px solid white;
+}
+#nav2 ul li a:hover{
+    color: lime;
+}
+#left{
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    float: left;
+    margin-left: 10px;
+    margin-right: 550px;
+}
+
+#right{
+    line-height: 20px;
+    color: white;
+    float: left;
+}
+
+.filter{float: left; padding-right: 380px;}
+
+table{
+    padding-left: 20px;
+    line-height: 40px;
+}
+fieldset{
+    width: 700px;
+    padding-bottom: 50px;
+}
+.buttom{
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 7px 30px;
+    border-radius: 5px;
+    cursor: hand;
+}
+
+#login{
+    margin: 100px auto;
+    padding-top: 20px;
+    width: 350px;
+    height: 100px;
+}
+#slogin{
+    cursor: hand;
+    padding: 5px 10px;
+    margin-left: 50px;
+}
+#thongtin
+{
+    border: 1px solid #80FF00;
+    line-height: 20px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 5px;
+}
+ .tbdm table{
+    text-align: center;
+    border-collapse:collapse;
+
+ }
+ .tbdm table th{
+    width: 600px;
+    border: 1px solid black;
+ }
+ .tbdm table td{
+    font-size: 14px;
+    color: black;
+    border: 1px solid silver;
+ }
+
+.ip{
+    border-collapse:collapse;
+    width: 100%;
+    height: 100%;
+}
+.icon{
+    cursor: hand;
+}
+.icon img{
+    margin: 0px 5px;
+    width: 20px;
+    height:20px;
+}
+
+#delete{
+    text-align: center;
+    margin: auto;
+    color: red;
+}
+#delete input{
+    padding: 3px 10px;
+    cursor: hand
+    ;
+}
+
+#addsp{
+    margin-bottom: 10px;
+}
+
+/*thong ke*/
+
+.tk{
+    float: left;
+    width: 250px;
+    height: 250px;
+    border: 1px solid lime;
+    margin-left: 120px;
+    background: #71A610;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px silver;
+    
+}
+
+.texttk
+{
+    font-size: 72px;
+    width: 250px;
+    height: 200px;
+    line-height: 200px;
+    color: white;
+    text-align: center;
+    text-shadow: 0.1em 0.1em #333
+    
+}
+
+.tde{
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #80FF80;
+    text-shadow: 0.1em 0.1em #333
+    
+    
+}
